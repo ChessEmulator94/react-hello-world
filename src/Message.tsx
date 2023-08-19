@@ -1,6 +1,9 @@
 
 function Message() {
-	return <h1>Hello World</h1>;
+
+	const name = "GADI"
+
+	return <h1>Hello {name} World</h1>;
 }
 
 export default Message;
